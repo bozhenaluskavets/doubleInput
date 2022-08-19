@@ -6,9 +6,12 @@ const symbol = document.getElementById('symbol');
 
 // CONTENT-FIT INPUT
 
-input1.addEventListener('input', () => {
+input1.addEventListener('input', resizeInput);
+
+function resizeInput() {
+    this.style.width = 10 + 'px';
     this.style.width = this.scrollWidth + 'px';
-});
+}
 
 // INPUT VALIDATION
 
