@@ -1,0 +1,65 @@
+.container {
+    width: 30%;
+    margin: 30vh auto 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+.customeInput {
+    display: flex;
+}
+
+.field {
+    display: flex;
+    font: 700 24px 'Roboto';
+    width: 100%;
+}
+
+.input {
+    font: 700 24px 'Roboto';
+    border: none;
+    width: 100%;
+}
+
+.symbol {
+    font: 300 22px 'Roboto';
+    color: rgba(0, 0, 0, 0.4);
+    padding: 0 3px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.label {
+    font: 400 15px 'Roboto';
+    margin-bottom: 10px;
+}
+
+.description {
+    font: 400 22px 'Roboto';
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.line {
+    border-bottom: solid 2px;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+.active {
+    border-color: #ffa500;
+}
+
+.errorLine {
+    border-color: rgb(255, 0, 0);
+}
+
+#error {
+    margin-top: 5px;
+    font: 400 15px 'Roboto';
+    color: rgb(255, 0, 0);
+}
