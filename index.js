@@ -6,13 +6,9 @@ const symbol = document.getElementById('symbol');
 
 // CONTENT-FIT INPUT
 
-input1.addEventListener('input', resizeInput);
-resizeInput.call(input1);
-
-function resizeInput() {
-    this.style.width = 10 + 'px';
+input1.addEventListener('input', () => {
     this.style.width = this.scrollWidth + 'px';
-}
+});
 
 // INPUT VALIDATION
 
