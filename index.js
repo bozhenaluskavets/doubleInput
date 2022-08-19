@@ -2,7 +2,7 @@ const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
 const line = document.getElementById('line');
 const error = document.getElementById('error');
-const symbol = document.getElementById('symbol')
+const symbol = document.getElementById('symbol');
 
 // CONTENT-FIT INPUT
 
